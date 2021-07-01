@@ -27,12 +27,15 @@ server based on a text file list
 optional arguments:
   -h, --help            show this help message and exit
   --fastdl-url FASTDL_URL
-                        Specify a base FastDL url 
+                        Specify a base FastDL url (WITH gamemode folder name!)
                         for downloading
   --map-list MAP_LIST   Specify a filename of a newlined list of maps (and
                         their resources) you wish to download (1 map per line)
+                        (default: saved-maps.txt)
   --output-dir OUTPUT_DIR
-                        Which directory to save the directory structure to
+                        Specify a base directory in which the downloaded
+                        directory structure will be saved to (default:
+                        downloaded_maps/)
 ```
 
 # Known bugs
